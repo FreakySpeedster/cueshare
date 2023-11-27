@@ -13,7 +13,6 @@ const connectToDb = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI, {
             dbName: 'cue_share',
-            useUnifiedTopology: true,
             useNewUrlParser: true
         });
         isConnected = true;

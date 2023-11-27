@@ -8,8 +8,9 @@ const Home = () => {
             <br className="max-md:hidden"/>
             <span className="orange_gradient text-center">AI-Powered Prompts</span>
         </h1>
+        
         <p className="desc text-center">
-            CueShare is a platform for discovering and sharing AI-generated prompts.
+            <span className="orange_gradient">CueShare</span> is a platform for discovering and sharing AI-generated prompts.
         </p>
         <Feed />
     </section>
